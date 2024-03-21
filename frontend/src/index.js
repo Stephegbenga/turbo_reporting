@@ -18,6 +18,7 @@ const App = () => {
       <Switch>
         <Route component={Setting} exact path="/setting" />
         <Route component={Home} exact path="/" />
+        <Route component={Home} exact path="/summary" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
